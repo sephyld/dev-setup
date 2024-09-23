@@ -11,6 +11,7 @@ set -e
 . ./software/docker-post-install.sh
 . ./software/kubectl.sh
 . ./software/minikube.sh
+. ./software/helm.sh
 . ./software/mise.sh
 . ./software/mise-tools.sh
 . ./software/pnpm.sh
