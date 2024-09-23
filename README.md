@@ -16,6 +16,7 @@ Maybe in the future I'll add support for other distros like Mint or Fedora since
 - docker-engine: container client and runtime. https://docs.docker.com/
 - kubectl: kubernetes command line tool. https://kubernetes.io/docs/reference/kubectl/
 - minikube: local k8s cluster. https://minikube.sigs.k8s.io/docs/
+- helm: kubernetes package manager. https://helm.sh/
 - mise: development environment manager. https://mise.jdx.dev/
 - pnpm: node package manager. https://pnpm.io/
 - starshiprs: customizable prompt for any shell. https://starship.rs/
