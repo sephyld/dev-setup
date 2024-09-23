@@ -2,7 +2,7 @@
 # https://mise.jdx.dev/getting-started.html#_3-adding-tools-to-mise
 
 # check if already installed
-if ~/.local/bin/mise ls java && ! ~/.local/bin/mise ls java | grep missing > /dev/null; then
+if ~/.local/bin/mise ls | grep java && ! ~/.local/bin/mise ls java | grep missing > /dev/null; then
     echo "Java already installed"
     return;
 fi
