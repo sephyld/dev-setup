@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # refer to official docs if having issues
-# https://github.com/tmux/tmux/wiki/Installing
+# https://git-scm.com/downloads/linux
 
 # check if already installed
 if which git > /dev/null; then
