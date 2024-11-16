@@ -9,5 +9,5 @@ rm -rf ~/.local/share/dev-setup
 git clone https://github.com/sephyld/dev-setup.git ~/.local/share/dev-setup >/dev/null
 
 echo "Starting setup..."
-(cd ~/.local/share/dev-setup && sh setup.sh && cd -)
+(cd ~/.local/share/dev-setup && bash setup.sh && cd -)
 rm -rf ~/.local/share/dev-setup
