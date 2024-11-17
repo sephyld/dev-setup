@@ -13,7 +13,7 @@ fi
 
 echo "Yarn not installed. Installing Yarn..."
 
-~/.local/bin/mise use --global yarn@3.3
+~/.local/bin/mise use --global yarn@4.5
 
 echo "`yarn -v`"
 
