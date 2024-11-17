@@ -38,6 +38,14 @@ Maybe in the future I'll add support for other distros like Mint or Fedora since
 
 ## How to use
 
+The quick way is by running
+
+```sh
+wget -pO- https://raw.githubusercontent.com/sephyld/dev-setup/refs/heads/main/boot.sh | bash
+```
+
+Or...
+
 Clone this repository (if you already have git installed) or download it
 
 ```sh
