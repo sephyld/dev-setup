@@ -3,6 +3,10 @@
 # refer to official docs if having issues
 # https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download
 
+if [[ $SELECTED_GUM_TOOLS != *"minikube"* ]]; then
+    return;
+fi
+
 # check if already installed
 if which minikube > /dev/null; then
     echo "Minikube already installed. Showing version"

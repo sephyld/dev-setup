@@ -3,6 +3,10 @@
 # refer to official docs if having issues
 # https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-using-other-package-management
 
+if [[ $SELECTED_GUM_TOOLS != *"kubectl"* ]]; then
+    return;
+fi
+
 # check if already installed
 if which kubectl > /dev/null; then
     echo "Kubectl client already installed. Showing version"

@@ -1,6 +1,10 @@
 # refer to official docs if having issues
 # https://mise.jdx.dev/getting-started.html#_3-adding-tools-to-mise
 
+if [[ $SELECTED_GUM_LANGUAGES != *"PHP"* ]]; then
+    return;
+fi
+
 # check if already installed
 if ~/.local/bin/mise ls | grep php && ! ~/.local/bin/mise ls php | grep missing > /dev/null; then
     echo "PHP already installed"
