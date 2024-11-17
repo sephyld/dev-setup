@@ -1,7 +1,7 @@
 #! /bin/bash
 
-AVAILABLE_LANGUAGES=("Ruby on Rails" "Node.js" "Deno" "Go" "PHP" "Python" "Java" )
-SELECTED_LANGUAGES="Ruby on Rails","Node.js"
+AVAILABLE_LANGUAGES=("Ruby" "Node.js" "Deno" "Go" "PHP" "Python" "Java" )
+SELECTED_LANGUAGES="Ruby","Node.js"
 export SELECTED_GUM_LANGUAGES=$(gum choose "${AVAILABLE_LANGUAGES[@]}" --no-limit --selected "$SELECTED_LANGUAGES" --height 10 --header "Select programming languages")
 
 AVAILABLE_TOOLS=("kubectl" "minikube" "helm" "pnpm" "yarn" "maven" )
