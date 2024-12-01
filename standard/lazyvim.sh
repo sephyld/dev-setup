@@ -8,14 +8,15 @@ rm nvim-linux64.tar.gz
 echo '#nvim' >>~/.bashrc
 echo 'export PATH="$PATH:/opt/nvim-linux64/bin' >>~/.bashrc
 
+TIME_STAMP=$(date '+%Y%m%d%H%M%S')
+
 # required
-mv ~/.config/nvim{,.bak}
+mv ~/.config/nvim{,.bak.$TIME_STAMP}
 
 # optional but recommended
-mv ~/.local/share/nvim{,.bak}
-mv ~/.local/state/nvim{,.bak}
-mv ~/.cache/nvim{,.bak}
+mv ~/.local/share/nvim{,.bak.$TIME_STAMP}
+mv ~/.local/state/nvim{,.bak.$TIME_STAMP}
+mv ~/.cache/nvim{,.bak.$TIME_STAMP}
 
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 rm -rf ~/.config/nvim/.git
-
