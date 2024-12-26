@@ -12,7 +12,7 @@ TIME_STAMP=$(date '+%Y%m%d%H%M%S')
 
 # required
 if ls ~/.config/nvim >/dev/null; then
-  mv ~/config/nvim{,.bak.$TIME_STAMP}
+  mv ~/.config/nvim{,.bak.$TIME_STAMP}
 fi
 
 # optional but recommended
