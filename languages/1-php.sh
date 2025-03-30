@@ -15,7 +15,7 @@ sudo apt-get update && sudo apt-get install -y autoconf \
   libedit-dev \
   libicu-dev \
   libjpeg-dev \
-  libmysqlclient-dev \
+  libmariadb-dev \
   libonig-dev \
   libpng-dev \
   libpq-dev \
