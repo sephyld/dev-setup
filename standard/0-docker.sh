@@ -4,7 +4,7 @@
 if [ $ID == "ubuntu" ]; then
   bash ./standard/docker/ubuntu.sh
 elif [ $ID == "linuxmint" ]; then
-  bash ./standard/docker/mint.sh
+  bash ./standard/docker/linuxmint.sh
 elif [ $ID == "debian" ]; then
   bash ./standard/docker/debian.sh
 else
