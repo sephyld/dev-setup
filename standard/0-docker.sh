@@ -2,11 +2,11 @@
 
 . /etc/os-release
 if [ $ID == "ubuntu" ]; then
-  bash ../standard/docker/ubuntu.sh
+  bash ./standard/docker/ubuntu.sh
 elif [ $ID == "linuxmint" ]; then
-  bash ../standard/docker/mint.sh
+  bash ./standard/docker/mint.sh
 elif [ $ID == "debian" ]; then
-  bash ../standard/docker/debian.sh
+  bash ./standard/docker/debian.sh
 else
   echo "WARNING! DOCKER NEEDS MANUAL INSTALLATION!"
   echo "The script will resume soon"
